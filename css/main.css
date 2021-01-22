@@ -278,31 +278,31 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* Sky indigo image */
 .sky-indigo {
-  background-image: url("sky.svg");
+  background-image: url("/main/sky.svg");
   min-height: 100%;
 }
 
 /* Night black image) */
 .night-black {
-  background-image: url("night.svg");
+  background-image: url("/main/night.svg");
   min-height: 100%;
 }
 
 /* Nebula blue image */
 .nebula-blue {
-  background-image: url("nebula.svg");
+  background-image: url("/main/nebula.svg");
   min-height: 100%;
 }
 
 /* Score light image */
 .score-light {
-  background-image: url("score.svg");
+  background-image: url("/main/score.svg");
   min-height: 100%;
 }
 
 /* Team black image */
 .team-black {
-  background-image: url("team.svg");
+  background-image: url("/main/team.svg");
   min-height: 100%;
 }
 
