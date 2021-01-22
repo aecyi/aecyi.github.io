@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home - Verhythm</title>
+<title>Verhythm Studio</title>
 <meta charset="UTF-8">
+<meta name="description" content="We are Verhythm, a group of high school students
+dedicated to providing accessible and available music education to everyone.">
+<meta name="keywords" content="Music, music lessons, music education, education, nonprofit, non-profit,
+high school, free music lessons, free lessons, piano, violin, cello, flute, trumpet,
+reading sheet music, music theory, strings, instrument lessons, instrument">
+<meta name="icon" type="image/x-icon" href="favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
@@ -25,12 +30,12 @@ body {font-size:16px;}
     <h3 class="w3-padding"><b>Verhythm<br>Studio</b></h3>
   	<div class="w3-bar-block">
     	<a onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Home</a> 
-    	<a href="https://aecyi.github.io/lessons" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Lessons</a> 
-    	<a href="https://aecyi.github.io/resources" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Resources</a> 
-    	<a href="https://aecyi.github.io/our-team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Our Team</a> 
-    	<a href="https://aecyi.github.io/join-us" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Join Us</a> 
-    	<a href="https://aecyi-github.io/contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Contact</a>
-    	<a href="https://aecyi.github.io/donate" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-indigo">Donate</a>
+    	<a href="lessons.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Lessons</a> 
+    	<a href="resources.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Resources</a> 
+    	<a href="our-team.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Our Team</a> 
+    	<a href="join-us.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Join Us</a> 
+    	<a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Contact</a>
+    	<a href="donate.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-indigo">Donate</a>
  	 </div>
   </div>
   
@@ -38,36 +43,36 @@ body {font-size:16px;}
 
 
 <!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-indigo-alt w3-xlarge w3-card" style="max-width:100%;margin:auto">
+<div class="w3-top" style="z-index:2;">
+  <div class="w3-indigo w3-xlarge w3-card" style="max-width:100%;margin:auto;">
     <div class="w3-button w3-padding-16 w3-left w3-hover-white" onclick="w3_open()">☰</div>
-    <div class="w3-button w3-right w3-padding-16 w3-hover-indigo-alt"><img src="white logo.svg" style="width:31px"></div>
-    <div class="w3-button w3-center w3-padding-16 w3-hover-indigo-alt">Verhythm Studio</div>
+    <div class="w3-button w3-right w3-padding-16 w3-hover-indigo"><img src="white logo.svg" style="width:31px"></div>
+    <div class="w3-button w3-center w3-padding-16 w3-hover-indigo">Verhythm Studio</div>
   </div>
 </div>
 
 
 <!-- Header -->
-<header class="sky-indigo w3-container w3-center w3-text-white" style="padding:200px 16px">
-  <h1 class="w3-margin w3-jumbo" data-aos="fade-in" data-aos-delay="50"><b>Verhythm Studio</b></h1>
-  <p class="w3-xxlarge" data-aos="fade-in" data-aos-delay="200">Music knows no borders.</p>
-<a href="lessons.html"><button class="w3-button w3-white w3-text-indigo w3-hover-light-grey w3-hover-shadow w3-padding-large w3-large w3-margin-top w3-round" data-aos="fade-up" data-aos-delay="500"><b>Get Started</b></button></a>
+<header class="blue-background w3-container w3-center w3-text-white" style="padding:200px 50px">
+  <h1 class="w3-jumbo" data-aos="fade-in" data-aos-delay="50"><b>Music knows no borders</b></h1>
+  <p class="w3-xxlarge" data-aos="fade-in" data-aos-delay="200">Experience accessible music education like no other.</p>
+<a href="lessons.html" class="white-button w3-padding-large w3-large w3-margin-top" data-aos="fade-up" data-aos-delay="500"><b>Get Started</b></a>
 </header>
 
 
 <!-- Music Lessons -->
 <div class="w3-row-padding w3-padding-64 w3-container w3-white">
   <div class="w3-content">
-    <div class="w3-twothird" data-aos="fade-right" style="padding-left: 30px">
+    <div class="w3-twothird" data-aos="fade-in" style="padding-left: 40px; padding-right: 40px;">
       <h1><b>Online Music Lessons</b></h1>
       <p class="w3-xlarge">Quality instruction, for free.</p>
 
       <p class="w3-text-grey">We offer comprehensive music lessons completely free-of-charge, taught by students for students. 
 Classes are taught by experienced and proficient high school and college students.  Sign up for your first lesson!</p>
-<a href="https://aecyi.github.io/lessons"><button class="w3-button w3-indigo w3-hover-light-grey w3-padding-large w3-large w3-hover-shadow w3-margin-top w3-round" data-aos="fade-right" data-aos-delay="100"><b>Learn More</b></button></a>
+<a href="lessons.html" class="blue-button w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Learn More</b></a>
     </div>
 
-    <div class="w3-third w3-center" data-aos="fade-left">
+    <div class="w3-third w3-center" data-aos="fade-in">
       <img src="https://i.ibb.co/1LKcCD0/music-lessons.jpg" style="width:100%;border-radius:50%;padding:30px;vertical-align:middle" alt="Person playing the piano">
     </div>
   </div>
@@ -77,17 +82,17 @@ Classes are taught by experienced and proficient high school and college student
 <!-- Online Resources -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-third w3-center" data-aos="fade-right">
+    <div class="w3-third w3-center" data-aos="fade-in">
       <img src="https://i.ibb.co/tc3cx5F/glasses.jpg" style="width:100%;border-radius:50%;padding:30px;vertical-align:middle" alt="Glasses and sheet music">
     </div>
 
-    <div class="w3-twothird" data-aos="fade-left" style="text-align:right;padding-right:30px">
+    <div class="w3-twothird" data-aos="fade-in" style="text-align:right;padding-left: 40px; padding-right: 40px;">
       <h1><b>Online Music Resources</b></h1>
       <h4 class="w3-padding-16">Self-study with confidence.</h4>
 
       <p class="w3-text-dark-grey">We have a collection of online resources, including instructional videos and quizzes, that are dedicated to helping beginner students get started. 
 Courses include reading sheet music, music theory, and others!</p>
-<a href="resources.html"><button class="w3-button w3-indigo w3-padding-large w3-large w3-hover-shadow w3-margin-top w3-round" data-aos="fade-left" data-aos-delay="100"><b>Learn More</b></button></a>
+<a href="resources.html" class="blue-button w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Learn More</b></a>
 
     </div>
   </div>
@@ -95,25 +100,25 @@ Courses include reading sheet music, music theory, and others!</p>
 
 
 <!-- Our Vision -->
-<div class="w3-container night-black w3-text-white w3-center w3-padding-64">
-    <h1 class="w3-margin w3-xlarge" data-aos="fade-in" style="padding-left: 30px;padding-right:30px">We're a group of high school students dedicated to providing free music education for all.</h1>
-<a href="our-vision.html"><button class="w3-button w3-white w3-hover-light-indigo w3-hover-shadow w3-padding-large w3-large w3-margin-top w3-round" data-aos="fade-up" data-aos-delay="100"><b>Our Vision</b></button></a>
+<div class="w3-container black-background w3-text-white w3-center w3-padding-64">
+    <h1 class="w3-margin w3-xlarge" data-aos="fade-in" style="padding-left: 40px; padding-right: 40px;">We're a group of high school students dedicated to providing free music education for all.</h1>
+<a href="our-vision.html" class="white-button-black w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Our Vision</b></a>
 </div>
 
 
 <!-- Our Team -->
 <div class="w3-row-padding w3-padding-64 w3-container w3-white">
   <div class="w3-content">
-    <div class="w3-twothird" data-aos="fade-right" style="padding-left:30px">
+    <div class="w3-twothird" data-aos="fade-in" style="padding-left: 40px; padding-right: 40px;">
       <h1><b>Our Team</b></h1>
       <h4 class="w3-padding-16">Meet your music instructors.</h4>
 
       <p class="w3-text-grey">Verhythm is composed of a team of volunteer instructors and operations members. Our experienced teachers are passionate about what they do and patient with children.</p>
-<a href="our-team.html"><button class="w3-button w3-indigo w3-hover-light-grey w3-padding-large w3-hover-shadow w3-large w3-margin-top w3-round" data-aos="fade-right" data-aos-delay="100"><b>Our Team</b></button></a>
+<a href="our-team.html" class="blue-button w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Our Team</b></a>
 
     </div>
 
-    <div class="w3-third w3-center" data-aos="fade-left">
+    <div class="w3-third w3-center" data-aos="fade-in">
       <img src="https://i.ibb.co/SXCZQvb/javier-allegue-barros-i5-Kx0-P8-A0d4-unsplash.jpg" style="width:100%;border-radius:50%;padding:30px;vertical-align:middle" alt="Team-building">
     </div>
   </div>
@@ -123,26 +128,26 @@ Courses include reading sheet music, music theory, and others!</p>
 <!-- Join Our Team -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-third w3-center" data-aos="fade-right">
+    <div class="w3-third w3-center" data-aos="fade-in">
       <img src="https://i.ibb.co/Gx9fr3j/neonbrand-KYx-XMTp-Tzek-unsplash.jpg" style="width:100%;border-radius:50%;padding:30px;vertical-align:middle" alt="Hourglass">
     </div>
 
-    <div class="w3-twothird" data-aos="fade-left" style="text-align:right;padding-right:30px">
+    <div class="w3-twothird" data-aos="fade-in" style="text-align:right;padding-left: 40px; padding-right: 40px;">
       <h1><b>Teach at Verhythm</b></h1>
       <h4 class="w3-padding-16">Become an instructor and earn volunteer hours.</h4>
 
       <p class="w3-text-dark-grey">Love to teach students? Want to earn some extra volunteer hours? Apply to be an instructor at Verhythm!
 We’re always looking for passionate, skilled instructors to join our team.</p>
-<a href="join-us.html"><button class="w3-button w3-indigo w3-padding-large w3-hover-shadow w3-large w3-margin-top w3-round" data-aos="fade-left" data-aos-delay="100"><b>Join Our Team</b></button></a>
+<a href="join-us.html" class="blue-button w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Join Our Team</b></a>
     </div>
   </div>
 </div>
 
 
 <!-- Donate -->
-<div class="w3-container nebula-blue w3-text-white w3-center w3-padding-64">
-    <h1 class="w3-margin w3-xlarge" data-aos="fade-in" style="padding-left:30px;padding-right:30px">Want to support our cause? Consider making a donation towards Verhythm Studio. 100% goes towards improving our organization.</h1>
-<a href="donate.html"><button class="w3-button w3-white w3-text-dark-indigo w3-hover-shadow w3-padding-large w3-large w3-margin-top w3-round" data-aos="fade-up" data-aos-delay="100"><b>Donate</b></button></a>
+<div class="w3-container indigo-background w3-text-white w3-center w3-padding-64">
+    <h1 class="w3-margin w3-xlarge" data-aos="fade-in" style="padding-left: 40px; padding-right: 40px;">Want to support our cause? Consider making a donation towards Verhythm Studio. 100% goes towards improving our organization.</h1>
+<a href="donate.html" class="white-button-dark w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Donate</b></a>
 </div>
 
 
