@@ -284,25 +284,25 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* Night black image) */
 .night-black {
-  background-image: url("/main/night.svg");
+  background-image: url("night.svg");
   min-height: 100%;
 }
 
 /* Nebula blue image */
 .nebula-blue {
-  background-image: url("/main/nebula.svg");
+  background-image: url("nebula.svg");
   min-height: 100%;
 }
 
 /* Score light image */
 .score-light {
-  background-image: url("/main/score.svg");
+  background-image: url("score.svg");
   min-height: 100%;
 }
 
 /* Team black image */
 .team-black {
-  background-image: url("/main/team.svg");
+  background-image: url("team.svg");
   min-height: 100%;
 }
 
