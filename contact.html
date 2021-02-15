@@ -29,13 +29,13 @@ body {font-size:16px;}
   	  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-xlarge w3-hover-light-grey">&times;</a>
     <h3 class="w3-padding"><b>Verhythm<br>Studio</b></h3>
   	<div class="w3-bar-block">
-    	<a href="https://aecyi.github.io/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Home</a> 
-    	<a href="https://aecyi.github.io/lessons" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Lessons</a> 
-    	<a href="https://aecyi.github.io/resources" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Resources</a> 
-    	<a href="https://aecyi.github.io/our-team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Our Team</a> 
-    	<a href="https://aecyi.github.io/join-us" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Join Us</a> 
+    	<a href="https://verhythm.org/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Home</a> 
+    	<a href="https://verhythm.org/lessons" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Lessons</a> 
+    	<a href="https://verhythm.org/resources" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Resources</a> 
+    	<a href="https://verhythm.org/our-team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Our Team</a> 
+    	<a href="https://verhythm.org/join-us" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Join Us</a> 
     	<a onclick="w3_close()" class="w3-bar-item w3-button w3-hover-light-grey">Contact</a>
-    	<a href="https://aecyi.github.io/donate" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-indigo">Donate</a>
+    	<a href="https://verhythm.org/donate" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-indigo">Donate</a>
  	 </div>
   </div>
   
@@ -48,7 +48,7 @@ body {font-size:16px;}
 <div class="w3-top" style="z-index:2;">
   <div class="w3-light-grey w3-xlarge w3-card" style="max-width:100%;margin:auto">
     <div class="w3-button w3-padding-16 w3-left w3-hover-indigo" onclick="w3_open()">☰</div>
-    <div class="w3-button w3-right w3-padding-16 w3-hover-light-grey"><a href="https://aecyi.github.io"><img src="black logo.svg" style="width:31px"></div>
+    <div class="w3-button w3-right w3-padding-16 w3-hover-light-grey"><a href="https://verhythm.org"><img src="black logo.svg" style="width:31px"></div>
     <div class="w3-button w3-center w3-padding-16 w3-hover-light-grey">Verhythm Studio</div></a>
   </div>
 </div>
@@ -65,7 +65,10 @@ body {font-size:16px;}
     <div class="w3-half w3-padding-64" style="padding-left: 25px;padding-right: 25px;text-align:right;vertical-align:middle">
       <h1 class="w3-text-indigo w3-xxxlarge" data-aos="fade-in" data-aos-delay="50"><b>Contact Us</b></h2>
       <p class="w3-text-black" data-aos="fade-in" data-aos-delay="100">Have any questions? 
-	      Fill out our contact form or email us at <a href="mailto:support@verhythm.org">support@verhythm.org</a> and our team will get back to you within 48 hours.</p>
+	      Fill out our contact form or email us at <script>
+emailE=('support@' + 'verhythm.org')
+document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+</script> and our team will get back to you within 48 hours.</p>
 	<a href="https://forms.gle/VeE79WWHQSaPquYU6" target="_blank" class="blue-button w3-padding-large w3-large w3-margin-top" data-aos="fade-in" data-aos-delay="100"><b>Contact Form</b></a>
     </div>
 
@@ -117,7 +120,7 @@ function onClick(element) {
 	var kofi_url = "https://www.ko-fi.com";
 	var bmc = 1;
 	var bmc_url = "https://www.buymeacoffee.com";
-	var patreon = 1;
+	var patreon = 0;
 	var pat_url = "https://www.patreon.com";
 	var paypal = 0;
 </script>
